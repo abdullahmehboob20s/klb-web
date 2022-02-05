@@ -745,6 +745,13 @@ li {
     width: 90%;
     margin: 0 auto;
   }
+
+  .mb-100px {
+    margin-bottom: 80px;
+  }
+  .mb-150px {
+    margin-bottom: 80px;
+  }
 }
 @media (max-width: 500px) {
   :root {
