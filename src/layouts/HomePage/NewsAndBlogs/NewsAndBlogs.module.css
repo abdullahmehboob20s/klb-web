@@ -1,0 +1,27 @@
+.Ellipse {
+  position: absolute;
+  top: -20%;
+  right: -20%;
+  z-index: -1;
+}
+
+.slider {
+  display: flex;
+  align-items: center;
+}
+.slider > :not(:last-child) {
+  margin-right: 1.5rem;
+}
+
+@media (max-width: 760px) {
+  .slider > :not(:last-child) {
+    margin-right: 0rem;
+  }
+
+  .slider button:first-child {
+    margin-right: -10px;
+  }
+  .slider button:last-child {
+    margin-left: -10px;
+  }
+}

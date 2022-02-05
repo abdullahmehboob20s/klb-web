@@ -1,0 +1,24 @@
+.Ellipse {
+  position: absolute;
+  top: 50%;
+  right: -20%;
+  transform: translateY(-50%);
+}
+.slider {
+  display: flex;
+  align-items: center;
+}
+
+.slider > div {
+  flex: 1;
+}
+
+.slider > :not(:last-child) {
+  margin-right: 1.5rem;
+}
+
+@media (max-width: 760px) {
+  .slider > :not(:last-child) {
+    margin-right: 1rem;
+  }
+}

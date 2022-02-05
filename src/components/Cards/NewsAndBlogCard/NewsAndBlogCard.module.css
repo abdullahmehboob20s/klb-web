@@ -1,0 +1,15 @@
+.card {
+  cursor: pointer;
+  box-shadow: 0px 48px 72px rgba(3, 3, 3, 0.1);
+  border-radius: 18px;
+  overflow: hidden;
+  padding-bottom: 30px;
+  height: 100%;
+  background-color: white;
+}
+.card:hover h4 {
+  color: var(--blue);
+}
+.content {
+  padding: 0 18px;
+}

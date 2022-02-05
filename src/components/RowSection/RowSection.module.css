@@ -1,0 +1,46 @@
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.section.reverse {
+  flex-direction: row-reverse;
+}
+.left {
+  flex: 1;
+  width: 100%;
+}
+.right {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.section.reverse .left {
+  max-width: auto;
+  flex: 1;
+  text-align: left;
+}
+
+@media (max-width: 800px) {
+  .section {
+    flex-direction: column-reverse;
+  }
+
+  .right {
+    margin-bottom: 2rem;
+  }
+
+  .right img {
+    width: 100% !important;
+  }
+
+  .section.reverse {
+    flex-direction: column-reverse;
+  }
+
+  .section.reverse .right {
+    margin-bottom: 2rem;
+  }
+}

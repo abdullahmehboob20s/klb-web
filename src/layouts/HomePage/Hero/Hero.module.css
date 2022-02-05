@@ -1,0 +1,61 @@
+.wrapper {
+  position: relative;
+}
+.Ellipse1 {
+  position: absolute;
+  top: -10%;
+  left: -30%;
+  z-index: -1;
+  opacity: 0.8;
+  transform: scale(0.8);
+}
+.Ellipse2 {
+  position: absolute;
+  top: 2%;
+  right: 2%;
+  /* border: 2px solid red; */
+}
+
+.section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  position: relative;
+}
+.left {
+  width: 100%;
+  max-width: 667px;
+  flex: 1;
+}
+.right {
+  flex: 1;
+}
+.right img {
+  width: 100%;
+}
+
+@media (max-width: 760px) {
+  .section {
+    height: auto;
+    flex-direction: column-reverse;
+    margin-top: 120px;
+    margin-bottom: 100px;
+  }
+  .Ellipse2 {
+    right: -40%;
+  }
+  .Ellipse1 {
+    left: -40%;
+  }
+
+  .left {
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .section {
+    margin-top: 100px;
+  }
+}

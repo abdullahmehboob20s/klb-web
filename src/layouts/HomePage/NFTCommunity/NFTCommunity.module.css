@@ -1,0 +1,12 @@
+.Ellipse1 {
+  position: absolute;
+  top: 5%;
+  right: -30%;
+  z-index: -1;
+}
+.Ellipse2 {
+  position: absolute;
+  top: 35%;
+  left: -30%;
+  z-index: -1;
+}

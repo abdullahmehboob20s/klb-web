@@ -1,0 +1,22 @@
+.Ellipse1 {
+  position: absolute;
+  top: -100%;
+  left: -30%;
+  z-index: -1;
+}
+.Ellipse2 {
+  position: absolute;
+  top: -10%;
+  right: -10%;
+  z-index: -1;
+}
+
+.faqs > :not(:last-child) {
+  margin-bottom: 18px;
+}
+
+@media (max-width: 760px) {
+  .faqs > :not(:last-child) {
+    margin-bottom: 10px;
+  }
+}

@@ -1,0 +1,30 @@
+.card {
+  width: 100%;
+  height: 400px;
+  background: linear-gradient(
+    51.58deg,
+    #0ae0de 6.14%,
+    rgba(254, 133, 201, 0.826662) 50.64%,
+    #ffd988 84.98%
+  );
+  border-radius: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 1.5rem;
+}
+
+.title {
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+@media (max-width: 500px) {
+  .card {
+    height: 262px;
+  }
+
+  .title {
+    font-size: 26px !important;
+  }
+}
