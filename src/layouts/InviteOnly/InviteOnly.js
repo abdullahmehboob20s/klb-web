@@ -7,6 +7,8 @@ import chatBoxRightImg from "assets/images/chatBoxRightImg.png";
 import NFTInformationBar from "./NFTInformationBar";
 import person1 from "assets/images/person-1.png";
 import person2 from "assets/images/person-2.png";
+import ape1 from "assets/images/ape1.png";
+import ape2 from "assets/images/ape2.png";
 
 const Chat = ({ isUser = false, img }) => {
   return (
@@ -48,10 +50,10 @@ function InviteOnly() {
         <div className="w-fit-content relative">
           <div className={styles.nftStats}>
             <div>
-              <NFTInformationBar img={person1} />
+              <NFTInformationBar img={ape1} />
             </div>
             <div>
-              <NFTInformationBar img={person2} />
+              <NFTInformationBar img={ape2} />
             </div>
           </div>
           <div className={`${styles.chatBox} relative`}>
