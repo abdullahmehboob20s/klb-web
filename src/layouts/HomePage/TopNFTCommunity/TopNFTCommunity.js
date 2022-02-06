@@ -86,28 +86,28 @@ function TopNFTCommunity() {
             <NFTCommunityCard
               title="Ape Crypto"
               subtitle="16k Members"
-              img={nft7}
+              img={cardimg1}
             />
           </SwiperSlide>
           <SwiperSlide>
             <NFTCommunityCard
               title="Biddy Crypto"
               subtitle="16k Members"
-              img={nft6}
+              img={cardimg2}
             />
           </SwiperSlide>
           <SwiperSlide>
             <NFTCommunityCard
               title="Sandy Crypto"
               subtitle="16k Members"
-              img={nft5}
+              img={cardimg3}
             />
           </SwiperSlide>
           <SwiperSlide>
             <NFTCommunityCard
               title="MIleay Crypto"
               subtitle="16k Members"
-              img={nft8}
+              img={cardimg4}
             />
           </SwiperSlide>
         </Swiper>
