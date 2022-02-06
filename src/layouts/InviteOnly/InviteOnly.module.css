@@ -180,14 +180,16 @@
 }
 @media (max-width: 420px) {
   .chatBox {
-    width: 95%;
+    width: 75%;
     padding: 20px 18px;
     padding-bottom: 5px;
+    margin-left: auto;
   }
 
   .nftStats {
     top: -35px;
     right: 10px;
+    width: 100%;
   }
 
   .chatBoxRightImg {
@@ -196,8 +198,40 @@
     right: -18px;
   }
   .chatBoxLeftImg {
-    height: 55px;
-    left: -0px;
-    bottom: 80px;
+    height: 70px;
+    left: -24px;
+    bottom: 60px;
+  }
+
+  .messageCoversations > p {
+    min-height: 5px;
+    width: 70%;
+  }
+
+  .messageCoversations > :not(:last-child) {
+    margin-bottom: 7px;
+  }
+
+  .messageCoversations > p:last-child {
+    width: 50%;
+  }
+
+  .nftStats > div {
+    width: 100%;
+    padding-left: 10px;
+  }
+
+  .nftStats > div > div {
+    width: 100%;
+  }
+
+  .nftStats > div:first-child {
+    margin-right: 0px;
+    padding-right: 40px;
+  }
+
+  .messageImg {
+    width: 28px;
+    height: 28px;
   }
 }

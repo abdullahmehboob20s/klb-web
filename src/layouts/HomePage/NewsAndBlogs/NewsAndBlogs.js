@@ -59,9 +59,11 @@ function NewsAndBlogs() {
               });
             }}
             style={{
-              paddingBottom: isBellow500px ? "3.5rem" : "5rem",
+              paddingBottom: isBellow500px ? "4.5rem" : "5rem",
             }}
-            pagination={true}
+            pagination={{
+              clickable: true,
+            }}
             breakpoints={{
               1200: {
                 spaceBetween: 30,

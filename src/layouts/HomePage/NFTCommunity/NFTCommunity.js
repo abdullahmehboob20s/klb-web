@@ -14,6 +14,7 @@ import JoinCommunity from "./Components/JoinCommunity/JoinCommunity";
 
 function NFTCommunity() {
   const isBellow800px = useMediaQuery("(max-width : 800px)");
+
   return (
     <div>
       <div className="container-wrapper relative">

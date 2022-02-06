@@ -669,6 +669,8 @@ li {
   height: 14px;
   background: #616161;
   border-radius: 50%;
+  position: relative;
+  z-index: 100 !important;
 }
 .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
   background: #9733ee;
@@ -772,5 +774,9 @@ li {
 
   .mb-50px {
     margin-bottom: 30px;
+  }
+
+  .swiper-pagination {
+    bottom: 30px !important;
   }
 }
