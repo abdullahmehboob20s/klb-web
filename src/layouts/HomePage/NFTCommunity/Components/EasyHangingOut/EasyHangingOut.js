@@ -29,7 +29,7 @@ const Card = ({ title, id, img }) => {
         </div>
       </div>
       <div className={styles.card_right}>
-        <button className={styles.cardBtn}>Lern More</button>
+        <button className={styles.cardBtn}>Learn More</button>
       </div>
     </div>
   );
