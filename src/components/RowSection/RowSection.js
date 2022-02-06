@@ -24,7 +24,7 @@ function RowSection({
           )}
         </div>
         <button className="button-pink fs-16px weight-7 white pointer">
-          Lern mehr
+          Learn More
         </button>
       </div>
       <div className={styles.right} style={imgWrapperStyle}>

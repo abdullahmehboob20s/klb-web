@@ -1,0 +1,132 @@
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left {
+  flex: 0.8;
+  width: 100%;
+  margin-right: 100px;
+}
+.right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+
+.contents {
+  z-index: 10;
+  width: 100%;
+  display: flex;
+  padding-right: 30px;
+  margin-bottom: -5%;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+}
+
+.cardWrapper {
+  /* max-width: 288px; */
+  width: 55%;
+  z-index: 10;
+}
+.socialIcons {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  padding: 12px;
+  gap: 14px;
+  border-radius: 12px;
+  box-shadow: 0px 48px 60px rgba(119, 118, 156, 0.3);
+  border-radius: 12px;
+  position: relative;
+  overflow: hidden;
+  position: absolute;
+  top: 20%;
+  left: 0;
+  z-index: 20;
+  width: 55%;
+}
+
+.socialIcons::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.48) 0%,
+    rgba(255, 255, 255, 0.18) 100%
+  );
+  opacity: 0.6;
+  backdrop-filter: blur(15px);
+}
+
+.socialIcon {
+  transition: all 0.2s ease;
+  border-radius: 50%;
+  display: flex;
+}
+.socialIcon:hover {
+  transform: scale(1.1);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.imagesGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  gap: 20px;
+}
+
+.imagesGrid > img {
+  border-radius: 24px;
+}
+
+@media (max-width: 1000px) {
+  .cardWrapper {
+    width: 60%;
+    z-index: 10;
+  }
+
+  .imagesGrid {
+    gap: 10px;
+  }
+
+  .imagesGrid > img {
+    border-radius: 2vw;
+  }
+}
+
+@media (max-width: 850px) {
+  .section {
+    flex-direction: column-reverse;
+  }
+  .left {
+    margin-right: 0;
+    margin-top: 40px;
+  }
+
+  .socialIcons {
+    padding: 10px;
+    gap: 8px;
+    width: 60%;
+  }
+}
+
+@media (max-width: 500px) {
+  .contents {
+    padding-right: 10px;
+  }
+}

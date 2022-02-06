@@ -7,6 +7,11 @@ import cardimg3 from "assets/images/cardimg3.png";
 import cardimg4 from "assets/images/cardimg4.png";
 import Ellipse from "assets/images/Ellipse-2.png";
 
+import nft8 from "assets/images/nfts/8.png";
+import nft7 from "assets/images/nfts/7.png";
+import nft6 from "assets/images/nfts/6.png";
+import nft5 from "assets/images/nfts/5.png";
+
 import { HiArrowNarrowLeft, HiArrowNarrowRight } from "react-icons/hi";
 
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -81,28 +86,28 @@ function TopNFTCommunity() {
             <NFTCommunityCard
               title="Ape Crypto"
               subtitle="16k Members"
-              img={cardimg1}
+              img={nft7}
             />
           </SwiperSlide>
           <SwiperSlide>
             <NFTCommunityCard
               title="Biddy Crypto"
               subtitle="16k Members"
-              img={cardimg2}
+              img={nft6}
             />
           </SwiperSlide>
           <SwiperSlide>
             <NFTCommunityCard
               title="Sandy Crypto"
               subtitle="16k Members"
-              img={cardimg3}
+              img={nft5}
             />
           </SwiperSlide>
           <SwiperSlide>
             <NFTCommunityCard
               title="MIleay Crypto"
               subtitle="16k Members"
-              img={cardimg4}
+              img={nft8}
             />
           </SwiperSlide>
         </Swiper>

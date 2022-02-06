@@ -40,15 +40,20 @@ function InviteOnly() {
         </div>
 
         <button className="button-pink fs-16px weight-7 white pointer">
-          Lern mehr
+          Learn More
         </button>
       </div>
 
       <div className={styles.right}>
         <div className="w-fit-content relative">
-          <NFTInformationBar img={person1} />
-          <NFTInformationBar img={person2} />
-
+          <div className={styles.nftStats}>
+            <div>
+              <NFTInformationBar img={person1} />
+            </div>
+            <div>
+              <NFTInformationBar img={person2} />
+            </div>
+          </div>
           <div className={`${styles.chatBox} relative`}>
             <img
               src={chatBoxRightImg}

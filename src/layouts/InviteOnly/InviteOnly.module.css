@@ -7,6 +7,7 @@
 .left {
   flex: 1;
   /* border: 2px solid red; */
+  margin-right: 150px;
 }
 .right {
   flex: 1;
@@ -96,4 +97,107 @@
   bottom: 85px;
   left: -35px;
   user-select: none;
+}
+
+.nftStats {
+  position: absolute;
+  top: -45px;
+  right: 60px;
+  z-index: 55;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.nftStats > :not(:last-child) {
+  margin-bottom: 18px;
+}
+
+.nftStats > div:first-child {
+  margin-right: 50px;
+}
+
+@media (max-width: 1200px) {
+  .chatBox {
+    width: 350px;
+  }
+
+  .chatBoxRightImg {
+    width: 80px;
+  }
+  .chatBoxLeftImg {
+    height: 80px;
+    left: -25px;
+    bottom: 90px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .section {
+    flex-direction: column-reverse;
+  }
+  .left {
+    margin-right: 0px;
+    margin-top: 50px;
+  }
+  .chatBox {
+    margin-right: 0px;
+    margin-left: 100px;
+  }
+}
+
+@media (max-width: 650px) {
+  .right {
+    width: 100%;
+  }
+
+  .right > div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .chatBox {
+    width: 90%;
+    margin-left: 0;
+  }
+
+  .nftStats {
+    top: -30px;
+    right: 25px;
+  }
+
+  .chatBoxRightImg {
+    width: 65px;
+    top: -30px;
+    right: -30px;
+  }
+  .chatBoxLeftImg {
+    height: 65px;
+    left: -10px;
+    bottom: 100px;
+  }
+}
+@media (max-width: 420px) {
+  .chatBox {
+    width: 95%;
+    padding: 20px 18px;
+    padding-bottom: 5px;
+  }
+
+  .nftStats {
+    top: -35px;
+    right: 10px;
+  }
+
+  .chatBoxRightImg {
+    width: 55px;
+    top: -30px;
+    right: -18px;
+  }
+  .chatBoxLeftImg {
+    height: 55px;
+    left: -0px;
+    bottom: 80px;
+  }
 }
