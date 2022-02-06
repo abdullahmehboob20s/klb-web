@@ -15,7 +15,7 @@ function CollectibleContent() {
           Where Content <br /> Becomes Collectible
         </h2>
         <button
-          className={`button-pink uppercase fs-18px black pointer weight-5`}
+          className={`uppercase fs-18px black pointer weight-5`}
           style={{ background: "#FFE647" }}
         >
           DOWNLOAD APP
