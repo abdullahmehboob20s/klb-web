@@ -94,6 +94,9 @@ body {
 .purple {
   color: #a050ff;
 }
+.blue {
+  color: var(--blue);
+}
 
 /* HEADING TAGS */
 h1 {

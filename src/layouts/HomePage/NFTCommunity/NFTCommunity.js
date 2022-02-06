@@ -7,6 +7,7 @@ import img3 from "assets/images/collaboration.png";
 import img4 from "assets/images/join.png";
 import Ellipse from "assets/images/Ellipse-2.png";
 import useMediaQuery from "hooks/useMediaQuery";
+import InviteOnly from "layouts/InviteOnly/InviteOnly";
 
 function NFTCommunity() {
   const isBellow800px = useMediaQuery("(max-width : 800px)");
@@ -26,7 +27,7 @@ function NFTCommunity() {
         </div>
 
         <div className="mb-100px">
-          <RowSection
+          {/* <RowSection
             content={
               <>
                 <h3 className="mb-15px weight-5 capitalize">
@@ -41,7 +42,9 @@ function NFTCommunity() {
             img={img}
             imgStyle={{ width: isBellow800px ? "100%" : "80%" }}
             imgWrapperStyle={{ flex: 1 }}
-          />
+          /> */}
+
+          <InviteOnly />
         </div>
         <div className="mb-100px">
           <RowSection
